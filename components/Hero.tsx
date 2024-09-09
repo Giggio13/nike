@@ -3,9 +3,9 @@ import Button from './Button';
 
 const Hero = () => {
   return (
-    <section>
+    <section
       id='Home'
-      className="w-full flex xl:flex-row flex-col justify-centermin-h-screen gap-10 max-contaniner"
+      className="w-full flex xl:flex-row flex-col justify-centermin-h-screen gap-10 max-contaniner">
         <div className='relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28'>
           
           <p className='tex-xl font-montserrat text-coral-red'>
@@ -25,7 +25,7 @@ const Hero = () => {
             and innovation for your active life.
           </p>
 
-          {/*<Button />*/}
+          <Button label='Shop Now' iconURL='/icons/arrow-right.svg'/>
         
         </div>
     </section>
